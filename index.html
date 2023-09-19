@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suvid Guglani</title>
+    <link rel="icon" type="png" href="./favicon.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header width-80">
+        <nav id="navbar">
+          <logo>
+            <a href="#">SUVID</a>
+          </logo>
+          <div id="made-by-suvid" class="font-clr-green">
+            Made with <i class="bi bi-heart-fill"></i> by Suvid
+          </div>
+          <ul>
+            <li class="nav-content"><a href="#hero">HOME</a></li>
+            <li class="nav-content"><a href="#about">ABOUT</a></li>
+            <li class="nav-content">
+              <a href="#services">SERVICES</a>
+            </li>
+            <li class="nav-content"><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+
+        <div id="mob-navbar">
+          <logo>
+            <a href="#">SUVID</a>
+          </logo>
+          <div id="made-by-suvid" class="font-clr-green">
+            Made with <i class="bi bi-heart-fill"></i> by Suvid
+          </div>
+          <div id="hamburger">
+            <menu onclick="navToggle()"><i class="bi bi-list"></i></menu>
+          </div>
+          <nav id="mob-nav-items">
+            <ul>
+              <li class="nav-content"><a href="#hero">HOME</a></li>
+              <li class="nav-content"><a href="#about">ABOUT</a></li>
+              <li class="nav-content">
+                <a href="#services">SERVICES</a>
+              </li>
+              <li class="nav-content"><a href="#contact">CONTACT</a></li>
+            </ul>
+            <div id="nav-img">
+              <img src="./svg/WorldMap.svg" alt="" />
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section id="hero">
+      <div id="hero-content" class="width-80">
+        <div id="hero-text">
+          <div id="hero-tagline" class="margin-2">
+            <h1>
+              Building Digital Experiences from
+              <span class="font-clr-green">Frontend</span> to
+              <span class="font-clr-green">Backend</span>
+            </h1>
+          </div>
+          <div id="hero-desc" class="margin-2">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+              voluptates quae aspernatur ratione officia quaerat odio quo totam,
+              nihil et nostrum enim expedita maiores.
+            </p>
+          </div>
+        </div>
+        <div id="connect">
+          <div id="connect-content">
+            <form action="#">
+              <div
+                id="connect-form-email"
+                class="connect-form-element form-element margin-2"
+              >
+                <label for="email-address" class="font-80">Email Address</label>
+                <input
+                  type="email"
+                  id="email-address"
+                  name="email-address"
+                  required
+                />
+              </div>
+              <div
+                id="connect-form-btn"
+                class="connect-form-element form-element margin-2"
+              >
+                <button type="submit" class="font-80 margin-2">
+                  <i class="bi bi-link-45deg"></i>
+                  <span>Connect with me</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div id="about-content" class="width-80">
+        <div id="about-img">
+          <img src="./svg/undraw_working_from_anywhere_re_9obt.svg" alt="" />
+        </div>
+        <div id="about-text" class="margin-2">
+          <div id="about-tagline" class="font-80">
+            <p>Introducing Myself</p>
+          </div>
+          <div id="about-head" class="margin-2">
+            <h1>
+              <i class="bi bi-stars"></i>
+              <span id="about-head-abt" class="font-clr-green">About</span>
+              <span id="about-head-me">Me</span>
+            </h1>
+          </div>
+          <div id="about-desc" class="margin-2">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              unde beatae laborum, repellendus ut officia blanditiis nemo nisi
+              vel quidem esse sint ullam sit ratione cumque fugiat quia.
+              Distinctio, voluptate! In qui vel, voluptatem consequuntur,
+              perspiciatis repellat doloremque praesentium ducimus molestias
+              tempora voluptatibus eligendi quos magnam ut laudantium ipsa
+              autem.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div id="skills-content" class="width-80">
+        <div id="skills-text">
+          <div id="skills-tagline" class="font-80 ctr-text margin-2">
+            Skills that Make Ideas Come Alive
+          </div>
+          <div id="skills-head" class="margin-2">
+            <h1>
+              <i class="bi bi-braces"></i>
+              <span id="skills-head-my">My</span>
+              <span id="skills-head-skills" class="font-clr-green">Skills</span>
+            </h1>
+          </div>
+        </div>
+        <div id="skills-grid">
+          <div class="skills-card">
+            <img src="./svg/css.svg" alt="CSS" />
+          </div>
+          <div class="skills-card">
+            <img src="./svg/react.svg" alt="ReactJs" />
+          </div>
+          <div class="skills-card">
+            <img src="./svg/flutter.svg" alt="Flutter" />
+          </div>
+          <div class="skills-card">
+            <img src="./svg/html.svg" alt="HTML" />
+          </div>
+          <div class="skills-card">
+            <img src="./svg/js.svg" alt="Javascript" />
+          </div>
+          <div class="skills-card">
+            <img src="./svg/mysql.svg" alt="MySQL" />
+          </div>
+          <div class="skills-card">
+            <img src="./svg/node-js.svg" alt="NodeJs" />
+          </div>
+          <div class="skills-card">
+            <img src="./svg/vue.svg" alt="VueJs" />
+          </div>
+          <div class="skills-card">
+            <img src="./svg/php.svg" alt="PHP" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div id="svc-content" class="width-80">
+        <div id="svc-text">
+          <div id="svc-tagline" class="font-80 ctr-text margin-2">
+            Services that Set the Standard for Excellence
+          </div>
+          <div id="svc-head" class="ctr-text margin-2">
+            <h1>
+              <i class="bi bi-tag-fill"></i>
+              <span>My</span>
+              <span class="font-clr-green">Services</span>
+            </h1>
+          </div>
+        </div>
+        <div id="svc-cards">
+          <div id="svc-card">
+            <i class="bi bi-bezier margin-2 font-clr-orange"></i>
+            <h2 class="margin-2 font-clr-green">Pixels to Perfection</h2>
+            <p class="margin-2">Forging Products that Resonate</p>
+          </div>
+          <div id="svc-card">
+            <i class="bi bi-magic margin-2 font-clr-orange"></i>
+            <h2 class="margin-2 font-clr-green">From Stillness to Motion</h2>
+            <p class="margin-2">Unveiling Animated Realms</p>
+          </div>
+          <div id="svc-card">
+            <i class="bi bi-cup-straw margin-2 font-clr-orange"></i>
+            <h2 class="margin-2 font-clr-green">Trailblazing Tomorrow</h2>
+            <p class="margin-2">Designing Strategies for Innovation</p>
+          </div>
+          <div id="svc-card">
+            <i class="bi bi-menu-app margin-2 font-clr-orange"></i>
+            <h2 class="margin-2 font-clr-green">Pixels with Purpose</h2>
+            <p class="margin-2">UI/UX Expertise</p>
+          </div>
+          <div id="svc-card">
+            <i class="bi bi-cloud margin-2 font-clr-orange"></i>
+            <h2 class="margin-2 font-clr-green">Project Blast-Off</h2>
+            <p class="margin-2">Code into the Cloud</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="moodboard">
+      <div id="mb-content" class="width-80">
+        <div id="mb-text">
+          <div id="mb-tagline" class="font-80 ctr-text margin-2">
+            From Concept to Creation
+          </div>
+          <div id="mb-head" class="ctr-text margin-2">
+            <h1>
+              <i class="bi bi-bookmark-star-fill"></i>
+              <span id="mb-head-my">My</span>
+              <span id="mb-head-moodboard" class="font-clr-green"
+                >Moodboard</span
+              >
+            </h1>
+          </div>
+        </div>
+        <div id="mb-images">
+          <div class="mb-img">
+            <img
+              class="mb-img-fill"
+              src="./images/original-1628cc5e77f80269addc932307e87e8c.png"
+              alt=""
+            />
+          </div>
+          <div class="mb-img">
+            <img
+              class="mb-img-fill"
+              src="./images/original-a6ef88be51ef25d16fe25292a046a570.png"
+              alt=""
+            />
+          </div>
+          <div class="mb-img">
+            <img
+              class="mb-img-fill"
+              src="./images/original-2f1a1aeb771d8d9484486d1bbd767902.png"
+              alt=""
+            />
+          </div>
+          <div class="mb-img">
+            <img
+              class="mb-img-fill"
+              src="./images/original-5888697fa78ab6a838d38cff33c93ef1.png"
+              alt=""
+            />
+          </div>
+          <div class="mb-img">
+            <img
+              class="mb-img-fill"
+              src="./images/original-878f5c56d081c25c8439d29f52686cfb.png"
+              alt=""
+            />
+          </div>
+          <div class="mb-img">
+            <img
+              class="mb-img-fill"
+              src="./images/original-83fb45982619c7813d6a0718edf50e4f.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div id="cnt-content" class="width-80">
+        <div id="cnt-info" class="ctr-text">
+          <div id="cnt-info-tagline" class="cnt-info-item font-80 margin-2">
+            Let's Connect and Create Together
+          </div>
+          <div id="cnt-info-head" class="cnt-info-item margin-2">
+            <h1>
+              <span id="cnt-info-head-contact" class="font-clr-green"
+                >Contact</span
+              >
+              <span id="cnt-info-head-me">Me</span>
+            </h1>
+          </div>
+          <div id="cnt-info-number" class="cnt-info-item margin-2">
+            <i class="bi bi-telephone-fill"></i> <span> 98XXXXXXXX</span>
+          </div>
+          <div id="cnt-info-email" class="cnt-info-item margin-2">
+            <i class="bi bi-envelope-fill"></i><span> suvid@contact.com</span>
+          </div>
+          <div id="cnt-info-address" class="cnt-info-item margin-2">
+            <i class="bi bi-geo-alt-fill"></i><span> Punjab, India</span>
+          </div>
+        </div>
+        <div id="cnt-form">
+          <div id="sendMessage" class="margin-2">
+            <h1>
+              <i class="bi bi-award-fill"></i>
+              <span class="font-clr-green">Share</span> Your
+              <span class="font-clr-green">Ideas</span>
+            </h1>
+          </div>
+          <form action="#">
+            <div id="msg-form-name" class="form-element margin-2">
+              <label for="name" class="font-80">Name</label>
+              <input type="text" name="name" required />
+            </div>
+            <div id="msg-form-email" class="form-element margin-2">
+              <label for="email" class="font-80">Email</label>
+              <input type="email" name="email" required />
+            </div>
+            <div id="msg-form-number" class="form-element margin-2">
+              <label for="number" class="font-80">Contact Number</label>
+              <input type="tel" name="number" required />
+            </div>
+            <div id="msg-form-message" class="form-element margin-2">
+              <label for="message" class="font-80">Message</label>
+              <textarea name="message" rows="8" required></textarea>
+            </div>
+            <div class="form-element">
+              <button type="submit" class="font-80 margin-2">
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div id="ftr-content" class="width-80">
+        <div id="ftr-top">
+          <div id="ftr-contact" class="ftr-element">
+            <h3 class="margin-2">Contact Me</h3>
+            <p>
+              <a
+                href="https://voice.google.com/"
+                class="margin-2"
+                target="_blank"
+                >98XXXXXXXX</a
+              >
+              <a
+                href="https://mail.google.com/"
+                class="margin-2"
+                target="_blank"
+                >suvid@contact.com</a
+              >
+              <a
+                href="https://goo.gl/maps/Xkq5LJ6gxJXZVK6w6"
+                class="margin-2"
+                target="_blank"
+                >Punjab, India</a
+              >
+            </p>
+          </div>
+          <div id="ftr-about" class="ftr-element">
+            <h3 class="margin-2">About Me</h3>
+            <p>
+              <a href="#about" class="margin-2">About</a>
+              <a href="#skills" class="margin-2">Skills</a>
+              <a href="#moodboard" class="margin-2">MoodBoard</a>
+            </p>
+          </div>
+          <div id="ftr-connect" class="ftr-element">
+            <h3 class="margin-2">Connect With Me</h3>
+            <p id="ftr-connect-label-icon">
+              <a href="https://github.com/" class="margin-2" target="_blank"
+                ><i class="bi bi-github"></i> Github</a
+              >
+              <a
+                href="https://www.instagram.com/"
+                class="margin-2"
+                target="_blank"
+                ><i class="bi bi-instagram"></i> Instagram</a
+              >
+              <a
+                href="https://www.behance.net/"
+                class="margin-2"
+                target="_blank"
+                ><i class="bi bi-behance"></i> Behance</a
+              >
+            </p>
+            <p id="ftr-connect-icon">
+              <a href="https://github.com/" class="margin-2" target="”_blank”"
+                ><i class="bi bi-github"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/"
+                class="margin-2"
+                target="”_blank”"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a
+                href="https://www.behance.net/"
+                class="margin-2"
+                target="”_blank”"
+                ><i class="bi bi-behance"></i
+              ></a>
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div id="copyright" class="margin-2 font-80">
+          Copyright ©️ 2023. All Rights Reserved.
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
