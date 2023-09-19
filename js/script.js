@@ -11,3 +11,7 @@ function navToggle() {
 
     navBar.classList.toggle("visible");
 }
+
+function msgFormSubmit() {
+    alert("Thankyou for messaging me.");
+}
